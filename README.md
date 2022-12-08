@@ -1,5 +1,5 @@
 # COMP-5704: Parallel Algorithms and Applications in Data Science
-This repository is the final project for course <a href="./Presentation_Outline.pdf">COMP-5704</a>, supervised by Prof F.Dehne.
+This repository is the final project for course <a href="https://www.dehne.ca/comp5704">COMP-5704</a>, supervised by Prof F.Dehne.
 
 ## Introduction
 OpenMP provides a high-level abstract description of parallel algorithms. Programmers specify their intentions by adding specialized pragmas to their source code, so that the compiler can automatically parallelize programs and add synchronous mutex and communication where necessary. However, as a high-level abstraction, OpenMP is not suitable for situations that require complex inter-thread synchronization and mutual exclusion. Another disadvantage of OpenMP is that it cannot be used on non-shared memory systems, such as computer clusters, where MPI is heavily used.
